@@ -1,0 +1,77 @@
+
+* {
+		box-sizing: border-box;
+}
+
+/*html {
+	background: url(1008529.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}*/
+
+#main-title {
+		color: #742020;
+		text-align: center;
+		font-family: "Impact";
+		font-size: 80px;
+}
+
+body {
+		height: 100vh;
+		background-image: url(1008529.jpg);
+		background-size: cover;
+}
+.page {
+		width: 1000px;
+		margin: 0 auto;
+	
+		height: 100%;
+}
+
+.background {
+	width: auto;
+	color: white;
+}
+
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+}
+
+li {
+		display: inline;
+		font-family: "Impact";
+}
+
+li a {
+		display: inline;
+		color: #742020;
+		background-color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		border-radius: 10px;
+}
+
+li a:hover {
+		background-color: #742020;
+		color: white;
+}
+
+img {
+	width: 50%;
+	height: auto;
+}
+
+.spacer {
+	height: 20px;
+}
+
+.info-paragraph {
+	color: white;
+}
