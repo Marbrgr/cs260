@@ -3,54 +3,29 @@
 		box-sizing: border-box;
 }
 
-/*html {
-	background: url(1008529.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-
-}*/
-
 #main-title {
-		color: #742020;
+		color: lightblue;
 		text-align: center;
 		font-family: "Impact";
 		font-size: 80px;
 }
 
-body {
-		height: 100vh;
-		background-image: url(1008529.jpg);
-		background-size: cover;
-}
-.page {
-		width: 1000px;
-		margin: 0 auto;
-	
-		height: 100%;
-}
 
-.background {
-	width: auto;
-	color: white;
-}
-
-
-ul {
+.menu{
 		list-style-type: none;
-		margin: 0;
+		margin-bottom: 100px;
 		padding: 0;
 }
 
-li {
+.menu > li {
+		float: left;
 		display: inline;
 		font-family: "Impact";
 }
 
-li a {
+.menu > li a {
 		display: inline;
-		color: #742020;
+		color: lightblue;
 		background-color: white;
 		text-align: center;
 		padding: 14px 16px;
@@ -58,20 +33,45 @@ li a {
 		border-radius: 10px;
 }
 
-li a:hover {
-		background-color: #742020;
+.menu > li a:hover {
+		background-color: lightblue;
 		color: white;
 }
 
-img {
-	width: 50%;
-	height: auto;
+
+.feature-section {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.spacer {
-	height: 20px;
-}
 
-.info-paragraph {
+.feature {
+	width: 100%;
+	min-width: 400px;
+	justify-content: center;
 	color: white;
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.one {
+	background-color: rgb(135, 196, 216);
+}
+.two {
+	background-color: rgb(88, 189, 223);
+}
+.three {
+	background-color: rgb(30, 158, 201);
+	
+}
+
+@media only screen and (min-width: 961px) {
+	.one,
+	.two,
+	.three {
+		width: 33%;
+	}
 }
