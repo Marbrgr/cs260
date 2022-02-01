@@ -1,0 +1,267 @@
+
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.bg-img_main {
+  background-image: url("/images/block.jpg");
+
+  min-height: 80vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img_crypto {
+  background-image: url("/images/charts.jpg");
+
+  min-height: 80vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+
+.bg-img_basics {
+  background-image: url("/images/block_structure.jpg");
+
+  min-height: 80vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.bg-img_about {
+  background-image: url("/images/computer1.jpg");
+
+  min-height: 80vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  color: rgb(212, 81, 5);
+}
+
+.title_container {
+  width: 100%;
+  text-align: center;
+  min-height: 80vh;
+  z-index: 1;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  vertical-align: middle;
+  padding-top: 50vh;
+  font-family: 'Play', sans-serif;
+  font-size: 10vw;
+}
+
+#about_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.about_item {
+  color: rgb(212, 81, 5);
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 2vh;
+  font-size: 8vw;
+  font-family: 'Play', sans-serif;
+  padding-bottom: 100px;
+
+}
+ 
+i {
+  z-index: 2;
+}
+
+.bi {
+  width: 20px;
+}
+
+.content-container {
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.content-image {
+  width: 100%;
+  height: auto;
+
+}
+.content-info {
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vw;
+    padding-bottom: 8vw;
+}
+
+h3 {
+    text-align: center;
+    font-size: 8vw;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+}
+
+p {
+  font-family: 'Dongle', sans-serif;
+  font-size: 3vw;
+  text-align: justify;
+}
+img {
+  max-width: 100%;
+
+}
+
+
+.content-container_about {
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items:center;
+  flex-direction: row;
+}
+
+.content-image_about {
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  align-items: center;
+  padding-bottom: 100px;
+
+}
+.content-info_about {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 2vw;
+}
+
+h3 {
+    text-align: center;
+    font-size: 8vw;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+}
+
+p {
+  font-family: 'Dongle', sans-serif;
+  font-size: 5vw;
+  text-align: justify;
+}
+
+#about_image {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+  display: block;
+}
+
+.blockchain-image {
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.footerp {
+  text-align: center;
+}
+
+.footerp > a {
+  text-align: center;
+  color:rgb(212, 81, 5);
+  vertical-align: middle;
+  font-family: 'Dongle', sans-serif;
+}
+
+h4 > a {
+  color: rgb(212, 81, 5);
+  font-family: 'Play', sans-serif;
+  font-size: 2vw;
+  font-weight:bold;
+}
+
+h4 > a:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+  .about_item {
+    width: 33.3%;
+    font-size: 5vw;
+  }
+  .content-image {
+    width: 33.3%;
+  }
+
+  .content-info>p {
+    font-size: 3vw;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
