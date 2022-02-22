@@ -1,0 +1,73 @@
+#cell_container {
+    border-width: 2px;
+    border-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: pixelated;
+    src: url(Blox2.ttf);
+}
+
+@font-face {
+    font-family: pixeltwo;
+    src: url(ka1.ttf);
+}
+
+h1 {
+    font-family: pixeltwo;
+    text-align: center;
+    font-size: 7em;
+}
+
+body {
+    width: 60em;
+    height: 60em;
+    margin: auto;
+}
+
+.canvasCell {
+    height: 2px;
+    width: 2px;
+}
+
+
+.palette {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+#refreshButton {
+    height: 5em;
+    margin: 20px;
+    font-family: pixeltwo;
+    background-color: white;
+    font-size: 1em;
+}
+
+#clearButton {
+    height: 5em; 
+    margin: 20px;
+    font-family: pixeltwo;
+    background-color: white;
+    font-size: 1em;
+}
+
+#randomButton {
+    height: 5em;
+    margin: 20px;
+    font-family: pixeltwo;
+    background-color: white;
+    font-size: 1em;
+}
+
+#c0 {
+    background-color: black;
+}
+
+#c00 {
+    background-color: white;
+}

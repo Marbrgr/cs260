@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <h1>Bit Canvas</h1>
+        <div id="functions">
+            <button id="refreshButton" onclick="updateColors();">Get new color palette</button>
+            <button id="randomButton" onclick="randomDesign();">Create Random Design</button>
+            <button id="clearButton" onclick="clearCanvas();">Clear Canvas</button>
+        </div>
+        
+        <div>
+            <button class="palette" id="c0" onclick="setColor('c0')"></button>
+            <button class="palette" id="c00" onclick="setColor('c00')"></button>
+            <button class="palette" id="c1" onclick="setColor('c1')"></button>
+            <button class="palette" id="c2" onclick="setColor('c2')"></button>
+            <button class="palette" id="c3" onclick="setColor('c3')"></button>
+            <button class="palette" id="c4" onclick="setColor('c4')"></button>
+            <button class="palette" id="c5" onclick="setColor('c5')"></button>
+            <button class="palette" id="c6" onclick="setColor('c6')"></button>
+            <button class="palette" id="c7" onclick="setColor('c7')"></button>
+        </div>
+       <script src="script.js"></script>
+       <div id="cell_container"></div>
+
+
+    </body>
+</html>
