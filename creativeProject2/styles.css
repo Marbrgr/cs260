@@ -71,3 +71,18 @@ body {
 #c00 {
     background-color: white;
 }
+
+#footer {
+    font-family: pixelated;
+    text-align: center;
+}
+#footer_container {
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+    color: black;
+    text-align: center;
+}
